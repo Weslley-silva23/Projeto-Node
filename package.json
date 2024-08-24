@@ -1,0 +1,19 @@
+{
+  "name": "projeto-node-api",
+  "version": "1.0.0",
+  "description": "projeto de uma api com o node para interrar no react.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": " node --watch server.js "
+  },
+  "author": "weslley silva",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0"
+  }
+}
